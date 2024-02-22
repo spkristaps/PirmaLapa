@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>mana lapa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+   table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+   
+   ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #72c753;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+   
+   * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    header {
+      background-color: #206a16;
+      padding: 40px;
+      text-align: center;
+      font-size: 35px;
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    nav {
+      float: left;
+      width: 30%;
+      height: 1100px; 
+      background: #72c753;
+      padding: 20px;
+    }
+    
+    
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    article {
+      float: left;
+      padding: 100px;
+      width: 70%;
+      background-color: #88f564;
+      height: 1100px; 
+    }
+    
+    
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+   
+    footer {
+      background-color: #206a16;
+      padding: 10px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+    </style>
+</head>
+<body>
+   
+
+<header>
+    <h2>Dzīvnieki Latvijā</h2>
+  </header>
+  
+  <section>
+    <nav>
+      <ul>
+        <li><a href="putni.html">Putni Latvijā</a></li>
+        <li><a href="mugurkaulnieki.html">Mugurkaulnieki Latvijā</a></li>
+        <li><a href="bezmugurkaulnieki.html">Bezmugurkaulnieki Latvijā</a></li>
+      </ul>
+    </nav>
+    
+    <article>
+      <h1>Vispārīgs raksturojums</h1>
+      <p>Vietējai faunai pieskaita sugas, kas izveido pastāvīgas populācijas. Mūsdienu Latvijas fauna sāka veidoties pirms apmēram 12 gadu tūkstošiem (pēc pēdējā apledojuma), tādējādi Latvijā ir viena no visjaunākajām faunām pasaulē. Sākotnēji Latvijas teritorijā bija tundras klimats ar tai raksturīgiem aukstuma izturīgiem dzīvniekiem. Klimatam kļūstot siltākam, dzīvnieku daudzveidība palielinājās. Faunas veidošanās turpinās arī mūsdienās. 21. gs. sākumā tā strauji papildinās ar jaunām sugām, galvenokārt klimata pasiltināšanās un cilvēka darbības (introdukcijas, reintrodukcijas, neapzinātas ievazāšanas) rezultātā. Baltijas jūras faunu parasti neattiecina uz noteiktas valsts teritoriju, bet gan uz visu jūru. Latvijas piekrastes ūdeņi, pateicoties zemajam sāļumam, atšķiras ar samazinātu sugu daudzveidību, salīdzinot ar jūras rietumu daļu. Latvija atrodas starp boreālo un nemorālo dabas zonu, kas ir pamatā dažādu faunu sajaukumam. Piemēram, staltbriedis (Cervus elaphus) un lielais susuris (Glis glis) pārstāv nemorālo faunu, brūnais lācis (Ursus arctos) un baltirbe (Lagopus lagopus) – boreālo faunu, bet ģipseņu stublājgrauzis (Phytoecia virgula) – stepes faunu. Novēro atsevišķu sugu nevienmērīgu sastopamību, ko nosaka attālums no to pamatareāla, piemēram, urālpūce (Strix uralensi) sastopama galvenokārt Austrumlatvijā, bet gredzenūbele (Streptopelia decaocto) un brūnvālīšu zilenītis (Maculinea teleius) – Rietumlatvijā.</p>
+      <p style="font-size:65%;">Informācija ņemta no:<a href="https://enciklopedija.lv/skirklis/7263-dz%C4%ABvnieki-Latvij%C4%81">Nacionālās enciklopēdijas mājaslapas</a></p>
+      <img src="Stirna.png" alt="Stirnas attēls" style="width:400px;height:200px;">
+      <p style="font-size:65%;">Attēls ņemts no:<a href="https://www.dabasmuzejs.gov.lv/lv/aktualitates/gada-dzivnieks">Dabas muzeja mājaslapas</a></p>
+      <h2>Sugu tabula</h2>
+
+      <table>
+        <tr>
+          <th>Klase</th>
+          <th>Sugu skaits</th>
+          <th>Īpašīi aizsargājamo sugu skaits</th>
+        </tr>
+        <tr>
+          <td>Bezmugurkaulnieki</td>
+          <td>>14000</td>
+          <td>104</td>
+        </tr>
+        <tr>
+          <td>Apaļmutnieki</td>
+          <td>3</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Zivis</td>
+          <td>101</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Abinieki</td>
+          <td>13</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Rāpuļi</td>
+          <td>7</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Putni</td>
+          <td>371</td>
+          <td>95</td>
+        </tr>
+        <tr>
+            <td>Zīdītāji</td>
+            <td>69</td>
+            <td>26</td>
+          </tr>
+          
+      </table>
+    </article>
+  </section>
+  
+  <footer>
+    <p>Lapa 1</p>
+  </footer>
+</body>
+
+</html>

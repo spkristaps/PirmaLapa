@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>mana lapa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+   ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #72c753;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+   * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    header {
+      background-color: #206a16;
+      padding: 40px;
+      text-align: center;
+      font-size: 35px;
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    nav {
+      float: left;
+      width: 30%;
+      height: 700px; 
+      background: #72c753;
+      padding: 20px;
+    }
+    
+    
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    article {
+      float: left;
+      padding: 100px;
+      width: 70%;
+      background-color: #88f564;
+      height: 700px; 
+    }
+    
+    
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+   
+    footer {
+      background-color: #206a16;
+      padding: 10px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+    </style>
+</head>
+<body>
+   
+
+<header>
+    <h2>Putni Latvijā</h2>
+  </header>
+  
+  <section>
+    <nav>
+      <ul>
+        <li><a href="index.html">Dzīvnieki Latvijā</a></li>
+        <li><a href="mugurkaulnieki.html">Mugurkaulnieki Latvijā</a></li>
+        <li><a href="bezmugurkaulnieki.html">Bezmugurkaulnieki Latvijā</a></li>
+      </ul>
+    </nav>
+    
+    <article>
+      <h1>Īss raksturojums</h1>
+      <p>Latvijas teritorijā konstatēta 371 putnu suga no 66 dzimtām, 22 kārtām. Apmēram 220 sugas Latvijā ligzdo, pārējās sastopamas ziemošanas vai migrācijas laikā vai kā maldu viesi. Ligzdojošās sugas nosacīti iedala nometniekos un gājputnos, bet gājputnus – tuvajos (ziemo Dienvideiropā vai Rietumeiropā) un tālajos (ziemo Āfrikā vai Indijā) migrantos. Pie nometniekiem pieder, piemēram, mednis (Tetrao urogallus), mežirbe (Bonasa bonasia), cekulzīlīte (Lophophanes cristatus), mājas zvirbulis (Passer domesticus). Pie tuvajiem migrantiem – dzērve (Grus grus), lauku cīrulis (Alauda arvensis), baltā cielava (Motacilla alba), mājas strazds (Sturnus vulgaris), pie tālajiem migrantiem – dzeguze (Cuculus canorus), lakstīgala (Luscinia luscinia), vālodze (Oriolus oriolus), mazais svilpis (Carpodacus erythrinus). Robeža starp šīm grupām ir izplūdusi, piemēram, daļa lielo zīlīšu (Parus major) un pelēko vārnu (Corvus cornix) ziemā aizceļo; daļa tuvo migrantu (piemēram, mājas strazdi, žubītes, Fringilla coelebs) siltākās ziemās var pārziemot Latvijā.</p>
+      <p style="font-size:65%;">Informācija ņemta no:<a href="https://enciklopedija.lv/skirklis/7279-putni-Latvij%C4%81">Nacionālās enciklopēdijas mājaslapas</a></p>
+      <img src="putnuatt.png" alt="Putnu attēls" style="width:500px;height:200px;">
+      <p style="font-size:65%;">Attēls ņemts no:<a href="https://www.latvijasdaba.lv">Latvijas dabas mājaslapas</a></p>
+    </article>
+  </section>
+  
+  <footer>
+    <p>Lapa 2</p>
+  </footer>
+</body>
+
+</html>

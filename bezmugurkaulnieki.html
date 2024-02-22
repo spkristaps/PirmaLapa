@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>mana lapa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #72c753;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    header {
+      background-color: #206a16;
+      padding: 40px;
+      text-align: center;
+      font-size: 35px;
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    nav {
+      float: left;
+      width: 30%;
+      height: 700px; 
+      background:#72c753;
+      padding: 20px;
+    }
+    
+    
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    article {
+      float: left;
+      padding: 100px;
+      width: 70%;
+      background-color: #88f564;
+      height: 700px; 
+    }
+    
+    
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+   
+    footer {
+      background-color: #206a16;
+      padding: 10px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+    </style>
+</head>
+<body>
+   
+
+<header>
+    <h2>Bezmugurkaulnieki Latvijā</h2>
+  </header>
+  
+  <section>
+    <nav>
+      <ul>
+        <li><a href="index.html">Dzīvnieki Latvijā</a></li>
+        <li><a href="putni.html">Putni Latvijā</a></li>
+        <li><a href="mugurkaulnieki.html">Mugurkaulnieki Latvijā</a></li>
+      </ul>
+    </nav>
+    
+    <article>
+      <h1>Vispārīgs raksturojums</h1>
+      <p>Bezmugurkaulnieki ir sugām bagātākā dzīvnieku valsts daļa pasaulē un arī Latvijā. Latvijā zināmo sugu skaits pārsniedz 14 000, no kuriem lielākā daļa ir kukaiņi. Vairumam raksturīgs niecīgs ķermeņa izmērs, taču liels īpatņu skaits, kas ir pamats bezmugurkaulnieku ievērojamai lomai ekosistēmu funkcionēšanā. Daudzi bezmugurkaulnieki dzīvo simbiozē ar mikroorganismiem un ir galvenie detrīta noārdītāji. Augstās auglības un vairošanās intensitātes dēļ daudzas kukaiņu, ērču un nematožu sugas ir bīstami kaitēkļi lauksaimniecībai. Kukaiņi un ērces var pārnēsāt arī augu un dzīvnieku slimību ierosinātājus. Plaši izplatīts ir parazītisms. Plēsīgās un parazītiskās sugas ir nozīmīgi citu bezmugurkaulnieku skaita regulētāji. Kukaiņi ir galvenie ziedaugu apputeksnētāji. Bites ir senākie domesticētie kukaiņi. Bezmugurkaulnieki ir perspektīvi olbaltumvielu iegūšanai, piemēram, Latvijā audzē sliekas biohumusa iegūšanai. Bezmugurkaulnieku fauna ir dinamiska laikā. Pastāv viedoklis, ka boreālās sugas mūsdienās pakāpeniski atkāpjas uz ziemeļiem un to vietā ienāk mērenā klimata sugas.</p>
+      <p style="font-size:65%;">Informācija ņemta no:<a href="https://enciklopedija.lv/skirklis/30584-mugurkaulnieki-Latvij%C4%81">Nacionālās enciklopēdijas mājaslapas</a></p>
+      <img src="bezmugurkatt.jpg" alt="zirnekļa attēls" style="width:400px;height:250px;">
+      <p style="font-size:65%;">Attēls ņemts no:<a href="https://lv.wikipedia.org/wiki/Bezmugurkaulnieki">Vikipēdijas mājaslapas</a></p>
+    </article>
+  </section>
+  
+  <footer>
+    <p>Lapa 4</p>
+  </footer>
+</body>
+
+</html>

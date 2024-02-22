@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>mana lapa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #72c753;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    header {
+      background-color: #206a16;
+      padding: 40px;
+      text-align: center;
+      font-size: 35px;
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    nav {
+      float: left;
+      width: 30%;
+      height: 800px; 
+      background: #72c753;
+      padding: 20px;
+    }
+    
+    
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    article {
+      float: left;
+      padding: 100px;
+      width: 70%;
+      background-color: #88f564;
+      height: 800px; 
+    }
+    
+    
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+   
+    footer {
+      background-color: #206a16;
+      padding: 10px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+    }
+    
+    
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+    </style>
+</head>
+<body>
+   
+
+<header>
+    <h2>Mugurkaulnieki Latvijā</h2>
+  </header>
+  
+  <section>
+    <nav>
+      <ul>
+        <li><a href="index.html">Dzīvnieki Latvijā</a></li>
+        <li><a href="putni.html">Putni Latvijā</a></li>
+        <li><a href="bezmugurkaulnieki.html">Bezmugurkaulnieki Latvijā</a></li>
+      </ul>
+    </nav>
+    
+    <article>
+      <h1>Vispārīgs raksturojums</h1>
+      <p>Latvijā mugurkaulniekus pārstāv apaļmutnieki (Cyclostomata), kaulzivis (Pisces), abinieki (Amphibia), rāpuļi (Reptilia), putni (Aves) un zīdītāji (Mammalia). Latvijā nav sastopami evolucionāri senāki mugurkaulnieki – skrimšļzivis (Chondrichthyes), kā arī primitīvie hordaiņi – tunikāti (Tunicata), bezgalvaskausaiņi (Cephalochordata). Mugurkaulnieku sugu daudzveidība, salīdzinot ar bezmugurkaulniekiem, ir zema. Latvijā reģistrētas vairāk nekā 550 mugurkaulnieku sugas, tomēr patiesais skaits ir daudz mazāks. Sugu sarakstos parasti ietver visas jebkad reģistrētās sugas. Latvijas faunai nevar pieskaitīt introducētas sugas, piemēram, varavīksnes foreli (Oncorhynchus mykiss) vai retus ieceļotājus, piemēram, raibo grifu (Gyps rueppellii), kuri nav izveidojuši pastāvīgas populācijas. Mugurkaulnieku fauna kopš pēdējā apledojuma (pirms apmēram 14 000 gadu) pastāvīgi papildinās ar jaunām sugām. Sauszemei atbrīvojoties no ledus, pirmie ienācēji, visticamāk, bija aukstumizturīgi dzīvnieki, piemēram, ziemeļbriedis (Rangifer tarandus), savukārt ūdeņos – alata (Thymallus thymallus). Klimatam pasiltinoties, aukstumprasīgās sugas atkāpās uz ziemeļiem un ienāca nemorālā bioma sugas, piemēram, staltbriedis (Cervus elaphus), ķauķu dzimtas (Sylviidae) sugas. Domājams, ka visaktīvāk faunas bagātināšanās notikusi Atlantijas periodā apmēram pirms 5000–8000 gadiem, kad bija vissiltākais klimats. Tas bija optimālākais abinieku un rāpuļu ieceļošanas periods, arī ūdeņi bagātinājās ar karpveidīgo zivju (Cypriniformes) sugām un, iespējams, arī ar samu (Silurus glanis).</p>
+      <p style="font-size:65%;">Informācija ņemta no:<a href="https://enciklopedija.lv/skirklis/30584-mugurkaulnieki-Latvij%C4%81">Nacionālās enciklopēdijas mājaslapas</a></p>
+      <img src="mugurkaulniekuatt.jpg" alt="Apsis attēls" style="width:450px;height:250px;">
+      <p style="font-size:65%;">Attēls ņemts no:<a href="https://www.dabasmuzejs.gov.lv/lv/aktualitates/gada-dzivnieks">Dabas muzeja mājaslapas</a></p>
+    </article>
+  </section>
+  
+  <footer>
+    <p>Lapa 3</p>
+  </footer>
+</body>
+
+</html>
